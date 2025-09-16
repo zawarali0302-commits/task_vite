@@ -4,6 +4,7 @@ const Palestine = () => {
   return (
     <div>
       <div className="min-h-screen grid place-content-center">
+        <h1>flag</h1>
         <div className="border h-52 w-72 grid grid-row-3 grid-cols-6">
           <div className="bg-red-500"></div>
           <div className="bg-black col-start-2 col-span-5"></div>
