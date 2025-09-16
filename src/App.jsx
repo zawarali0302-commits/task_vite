@@ -15,13 +15,13 @@ function App() {
 
   return (
     <>
-      {/* <Bangladesh_Flag />
+      <Bangladesh_Flag />
       <Costa_Rica_Flag />
       <France_Flag />
-      <Japan_Flag /> */}
-      {/* <Uae/> */}
-      {/* <Panama/> */}
-      <Palestine/>
+      <Japan_Flag />
+      <Uae />
+      <Panama />
+      <Palestine />
     </>
   )
 }
