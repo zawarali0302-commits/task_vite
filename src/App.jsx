@@ -15,13 +15,42 @@ function App() {
 
   return (
     <>
-      <Bangladesh_Flag />
-      <Costa_Rica_Flag />
-      <France_Flag />
-      <Japan_Flag />
-      <Uae />
-      <Panama />
-      <Palestine />
+      <div className="grid grid-cols-3 place-items-center">
+        <div>
+          <h1 className='font-bold underline'>Flag of Bangladesh</h1>
+          <Bangladesh_Flag />
+        </div>
+        
+        <div>
+          <h1 className='font-bold underline'>Flag of Costa Rica</h1>
+          <Costa_Rica_Flag />
+        </div>
+
+        <div>
+          <h1 className='font-bold underline'>Flag of France</h1>
+          <France_Flag />
+        </div>
+
+        <div>
+          <h1 className='font-bold underline'>Flag of Japan</h1>
+          <Japan_Flag />
+        </div>
+
+        <div>
+          <h1 className='font-bold underline'>Flag of UAE</h1>
+          <Uae />
+        </div>
+
+        <div>
+          <h1 className='font-bold underline'>Flag of Panama</h1>
+          <Panama />
+        </div>
+
+        <div>
+          <h1 className='font-bold underline'>Flag of Palestine</h1>
+          <Palestine />
+        </div>
+      </div>
     </>
   )
 }
